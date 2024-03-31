@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins-Regular";
+  color: #333;
+  margin: 0; }
+
+
+
+.theme-loader {
+  width: 100px;
+  height: 100px;
+}
+
+/* .main-content {
+  display: none;
+} */
+/* NavBar */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #ddd;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* form */
+
+.contaner {
+  margin-top: 100px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#signinWithGoogle {
+  background-color: #db4437;
+  border: none;
+}
+
+#signinWithGoogle:hover {
+  background-color: #c1351a;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* create blog */
+
+.containerr {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-list {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .nav-list.active {
+      display: flex;
+  }
+}
